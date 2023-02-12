@@ -1,0 +1,38 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+
+
+
+body {
+    background-color: whitesmoke;
+}
+
+div.container {
+
+    padding-top: 60px;
+    font-size: larger;
+    font-family: Montserrat;
+    font-weight: 200;
+    color: aliceblue;
+    text-align: center;
+}
+
+div.cuadradofecha {
+
+    margin: 0;
+    top: 0;
+    padding: 30px;
+    width: 40px;
+    color: orange;
+}
+
+
+div.fecha1.fecha2.fecha3 {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: #ffff55;
+}

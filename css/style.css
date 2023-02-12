@@ -1,14 +1,12 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
-@media (min-width: 48.000em) {
-    .header span
-}
+@media (min-width: 48.000em);
 
 
 body {
 
-    font-family: Montserrat;
+
     background-color: black;
 }
 
@@ -42,6 +40,7 @@ p {
 
     color: white;
     font-size: 10px;
+    font-family: sans-serif;
 }
 
 
@@ -54,7 +53,8 @@ button {
     color: white;
     background-color: orange;
     font-weight: 700;
-    padding: 10px 70px 5px
+    padding: 15px 70px 5px 50px;
+    margin: 50%
 }
 
 
@@ -65,14 +65,57 @@ div.articulos {
     padding-left: 20px;
 }
 
+
+
 div.container {
 
-    padding-top: 30px;
+    padding-top: 60px;
     font-size: larger;
     font-family: Montserrat;
     font-weight: 200;
     color: aliceblue;
+    text-align: center;
 }
+
+
+div.underline {
+
+    position: relative;
+    width: 6.250em;
+    margin: 0 auto;
+    color: orange;
+    font-weight: 700px;
+
+}
+
+
+div.title1,
+title2,
+tittle3 {
+
+    font-family: sans-serif;
+    width: 200px;
+    color: aqua;
+
+
+}
+
+div .Ofertas h2 {
+
+    font-family: sans-serif;
+    font-weight: 200px;
+}
+
+div.precio {
+
+    color: orange;
+    font-weight: 40px;
+}
+
+
+
+
+
 
 p {
 
@@ -85,5 +128,3 @@ button:hover {
 
     background-color: orange;
 }
-
-img source {}
